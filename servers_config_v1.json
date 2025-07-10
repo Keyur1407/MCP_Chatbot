@@ -1,0 +1,32 @@
+{
+    "mcpServers": {
+        "Insert_Queries": {
+            "type": "stdio",
+            "command": "D:\\ML\\Mul_Server\\venv\\Scripts\\python.exe",
+            "args": [
+                "D:\\ML\\Mul_Server\\MyClient_v2_2\\servers\\server_insert.py"
+            ]        
+        },
+        "Read_Queries": {
+            "type": "stdio",
+            "command": "D:\\ML\\Mul_Server\\venv\\Scripts\\python.exe",
+            "args": [
+                "D:\\ML\\Mul_Server\\MyClient_v2_2\\servers\\server_read.py"
+            ]        
+        },
+        "Admin": {
+            "type": "stdio",
+            "command": "D:\\ML\\Mul_Server\\venv\\Scripts\\python.exe",
+            "args": [
+                "D:\\ML\\Mul_Server\\MyClient_v2_2\\servers\\Admin.py"
+            ]        
+        },
+        "Payroll": {
+            "type": "stdio",
+            "command": "D:\\ML\\Mul_Server\\venv\\Scripts\\python.exe",
+            "args": [
+                "D:\\ML\\Mul_Server\\MyClient_v2_2\\servers\\payroll.py"
+            ]        
+        }
+    }
+}
